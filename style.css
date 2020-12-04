@@ -1,4 +1,4 @@
-/* All poages */
+/* All pages */
 
 .header{
     position: fixed;
@@ -29,27 +29,28 @@ footer{
 
 }
 
-
-
-
-
-
-
-
 /* index.html style */
+
 article{
-    background-color:white;
-    margin:100px 500px 90px 66px;
+    background-color: white;
+    margin-top: 100px;
 }
 
-
+.aboutme{
+    margin-left:35px;
+    font-size: 35px;
+    padding:20px;
+    
+}
 
 .imagewrap{
-    padding: 10px 0px;
+    padding:20px;
     width: 300px;
     margin-left: 35px;
     float:left;
 }
+
+
 
 /* contact.html style */
 .contact-box{
