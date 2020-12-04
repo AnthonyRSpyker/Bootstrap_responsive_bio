@@ -1,5 +1,6 @@
 /* All pages */
 
+
 .header{
     position: fixed;
     top: 0;
@@ -37,17 +38,21 @@ article{
 }
 
 .aboutme{
-    margin-left:35px;
+    margin-left: 35px;
     font-size: 35px;
-    padding:20px;
+    color: rgb(38, 131, 123);
     
 }
 
 .imagewrap{
-    padding:20px;
-    width: 300px;
     margin-left: 35px;
+    padding:0px 20px 0px 0px;
+    width: 300px;
     float:left;
+}
+
+.text{
+    margin-left: 35px;
 }
 
 
@@ -58,6 +63,12 @@ article{
 }
 
 
+/* for portfolio.html */
+
+.portfoliopics{
+    
+    margin: 10px 0px 10px 0px;
+}
 
 
 
