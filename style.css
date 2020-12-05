@@ -23,7 +23,7 @@ body {
 footer{ 
     position: fixed;
     bottom: 0;
-    height: 20px;
+    height: 50px;
     width: 100%;
     background-color: rgb(67, 65, 65);
     border-top: 5px rgb(38, 131, 123) solid;
@@ -31,6 +31,7 @@ footer{
 }
 
 /* index.html style */
+
 
 article{
     background-color: white;
@@ -41,12 +42,13 @@ article{
     margin-left: 35px;
     font-size: 35px;
     color: rgb(38, 131, 123);
+    border-bottom: solid;
     
 }
 
 .imagewrap{
     margin-left: 35px;
-    padding:0px 20px 0px 0px;
+    padding:0px 40px 0px 0px;
     width: 300px;
     float:left;
 }
@@ -64,10 +66,17 @@ article{
 
 
 /* for portfolio.html */
+h1{
+    border-bottom:solid;
+    color:rgb(38, 131, 123);
+}
+.imagewrap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-.portfoliopics{
-    
-    margin: 10px 0px 10px 0px;
+.row{
+    margin:10px;
 }
 
 
